@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 8rem;
+    gap: 10px;
+}
+
+.learn{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5852FE;
+    border-radius: 15px;
+}
+
+.learn img{
+    width: 30%;
+    height: 10vh;
+}
+
+.learn h4{
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.learn-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.learn-para p{
+    width: 70%;
+    text-align: center;
+    color: #ffffffc5;
+}
+
+.learn-btn{
+    
+    padding-top: 25px;
+}
+
+.learn-btn button{
+    padding: 15px 45px;
+    color: #5852FE;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.quiz{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+}
+.quiz img{
+    width: 30%;
+    height: 10vh;
+}
+
+.quiz h4, .earn h4{
+    color: #000000;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.quiz-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-para p{
+    width: 70%;
+    color: #000000c2;
+}
+
+.quiz-btn{
+    padding-top: 40px;
+}
+
+.quiz-btn button{
+    padding: 15px 45px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #5852FE;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.earn{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+}
+.earn img{
+    width: 30%;
+    height: 10vh;
+}
+
+.earn-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.earn-para p{
+    width: 70%;
+    color: #000000c2;
+}
+
+.earn-btn{
+    padding-top: 40px;
+}
+
+.earn-btn button{
+    padding: 15px 45px;
+    background-color: #5852FE;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        padding: 0 25px;
+        gap: 3rem;
+        margin-top: 5rem;
+    }
+    .learn, .quiz, .earn{
+        width: 100%;
+        height: 30vh;
+    }
+}

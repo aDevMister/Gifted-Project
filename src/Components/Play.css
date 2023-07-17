@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.play-bg{
+    width: 100%;
+}
+
+.play-box{
+    width: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5852FE;
+    margin-top: 10rem;
+    border-radius: 15px;
+}
+
+.right-sec{
+    display: flex;
+    flex-direction: row;
+}
+.right-sec img{
+    height: 70vh;
+}
+
+.left-sec{
+    display:flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+}
+.play-para h1{
+    font-weight: 600;
+    color: #fff;
+    font-size: 35px;
+}
+.play-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.play-para p{
+    width: 50%;
+    font-weight: 500;
+    color: #ffffffb6;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.play-btn{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15rem;
+}
+.play-btn button{
+    padding: 15px 45px;
+    background-color:#050227;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.play-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    margin-left: 15rem;
+    gap: 10px;
+    padding-top: 2rem;
+}
+.gifted-logo img{
+    height: 15vh;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.socials img{
+    height: 30px;
+}
+
+@media screen and (max-width:900px) {
+  .play-box{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .right-sec{
+    display: flex;
+    flex-direction: column;
+}
+.right-sec img{
+        height: 30vh;
+    }
+    .play-para p{
+        width: 100%;
+        text-align: center;
+    }
+    .play-btn{
+        margin: 0;
+        padding-left: 10rem;
+        padding-bottom: 2rem;
+    }
+    .play-icons{
+        margin: 0;
+    }
+}
+

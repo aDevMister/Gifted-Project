@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color:#FFFFFF;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Icon img{
+    height: 150px;
+    cursor: pointer;
+}
+
+.togin{
+    padding-right:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.menuBar li{
+    list-style: none;
+}
+
+
+.menuBar li a{
+    text-decoration:none;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.sign-up{
+    padding: 15px 35px;
+    background-color: #5852FE;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mobileBar{
+    display: none;
+}
+.toggle{
+    display: none;
+}
+
+@media screen and (max-width:900px)  {
+    
+ 
+    .toggle{
+        display: block;
+    }
+    .menuBar{
+        display: none;
+    }
+    .mobileBar{
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        transition: 2s ease-in-out;
+        background-color:#5852FE;
+        overflow: hidden;
+        gap: 10px;
+        align-items: center;
+        justify-content: left;
+
+    }
+    .mobile-sub{
+        height: 20vh;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #5852FE;
+        transition: 2s ease-in-out;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: left;
+        border-radius: 25px;
+    } 
+    a{
+        text-decoration:none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .mobile-btn button{
+        border: none;
+        background-color: transparent;
+        cursor: pointer; 
+        outline: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .toggle {
+        padding: 10px 25px;
+        background-color: #5852FE;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+        border-radius: 25px;
+    }
+    
+}

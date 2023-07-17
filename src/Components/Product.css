@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how{
+    padding-top: 45px;
+}
+.how h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    padding: 10px 45px;
+}
+
+.upper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:50px 0;
+}
+
+.left-img img {
+    height: 45vh;
+}
+.right-img img {
+    height: 45vh;
+}
+.left-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left-para, .break{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-para p, .break p{
+    width: 38%;
+    text-align:left;
+    color: #000000ad;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.right-para{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-para p{
+    width:38% ;
+    text-align: left;
+    color: #000000ad;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.lower{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.left-png{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+}
+
+ .right-png{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+ }
+
+
+
+.left-png img, .right-png img{
+    height: 45vh;
+}
+
+
+.left-txt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left-txt p{
+    width: 35%;
+    text-align: left;
+    color: #000000ad;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.right-txt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-txt p{
+    width: 45%;
+    text-align: left;
+    color: #000000ad;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+@media screen and (max-width:900px) {
+  .how{
+    margin-bottom: 20px;
+  } 
+ .upper{
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+ }
+    
+ .lower{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-left: 15px;
+ }
+ .left-png, .right-png{
+    padding: 0;
+ }
+ .left-para p, .break p, .right-para p, .right-txt p, .left-txt p{
+    width: 80%;
+    text-align: left;
+ }
+}
