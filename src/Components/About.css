@@ -30,12 +30,11 @@
 
 @media screen and (max-width:900px) {
     .about{
-        padding: 0 25px;
+        padding:25px;
     }
     .about p{
         width: 100%;
-        text-align: center;
-        
+        text-align: center;  
     }
     
 }

@@ -79,35 +79,36 @@ nav{
         overflow: hidden;
         gap: 10px;
         align-items: center;
-        justify-content: left;
+        justify-content:center;
+
 
     }
     .mobile-sub{
-        height: 20vh;
+        height: 25vh;
         display: flex;
         overflow: hidden;
         flex-direction: column;
         gap: 10px;
         background-color: #5852FE;
         transition: 2s ease-in-out;
-        padding-top: 2rem;
         align-items: center;
-        justify-content: left;
+        justify-content: center;
         border-radius: 25px;
     } 
     a{
         text-decoration:none;
         color: #fff;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 700;
     }
+    
     .mobile-btn button{
         border: none;
         background-color: transparent;
         cursor: pointer; 
         outline: none;
         color: #fff;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 700;
     }
 
