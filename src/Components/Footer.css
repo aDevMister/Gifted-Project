@@ -86,6 +86,7 @@ padding-top: 1rem;
 .reserved p {
     font-weight: 400;
     color: #fff;
+    text-transform: none;
 }
 
 @media screen and (max-width:900px) {
