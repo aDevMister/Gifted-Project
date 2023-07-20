@@ -3,6 +3,7 @@ import "./SignUp.css";
 import sui from './images/Gifted-Brainz-PNG.png'
 import google from './images/google.png'
 import {BsArrowLeft} from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 function SignUp() {
   return (
@@ -22,7 +23,7 @@ function SignUp() {
             </div>
             <div className='sign-up-input'>
                 <label htmlFor="">Password</label>
-                <input type="text" placeholder='' />
+                <input type="password" placeholder='' />
             </div>
             <div className="sign-up-check">
                 <input type="checkbox" />
@@ -32,7 +33,7 @@ function SignUp() {
             </div>
             <div className="sign-up-btn">
                 <div className="btn-sign-up">
-                    <button>Sign Up</button>
+                    <Link to={'/signin'}><button>Sign Up</button></Link>
                 </div>
                 <p>OR</p>
                 <div className="google-icon">

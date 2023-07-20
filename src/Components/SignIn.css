@@ -4,37 +4,38 @@
     box-sizing: border-box;
 }
 
-.sign-up-box{
+.sign-in-box{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2rem;
 }
-.sign-up-img{
+.sign-in-img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1rem;
 }
 
-.sign-up-img img{
+.sign-in-img img{
     position: relative;
     top: 25px;
     height: 20vh;
 }
 
-.sign-up-img h3{
+.sign-in-img h3{
     font-weight: 800;
     font-size: 25px;
     padding-left: 10px;
 }
 
-.sign-up-wrap{
+.sign-in-wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
 }
 
-.sign-up-input{
+.sign-in-input{
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -45,7 +46,7 @@
     gap: 10px;
 }
 
-.sign-up-input input{
+.sign-in-input input{
     width: 100%;
     padding: 10px 25px;
     border-radius: 10px;
@@ -53,35 +54,38 @@
     background-color: #fff;
     border: 1px solid #7B7373;
 }
-.sign-up-check{
+.sign-in-check{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
+    padding-right: 13rem;
+    margin-top: 1rem;
 }
 
 
-.sign-up-check p{
-    width: 50%;
+.sign-in-check p{
     font-size: 400;
     color: #000000b0;
     text-align: center;
 }
-.sign-up-btn{
+.sign-in-btn{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    padding-right: 10px;
+    padding-right: 1rem;
+    margin-top: 1rem;
 }
-.sign-up-btn p {
+.sign-in-btn p {
     font-weight: 400;
     color: #000000b7;
     font-size: 15px;
 }
 
-.btn-sign-up button{
+.btn-sign-in button{
  padding: 15px 45px;
  cursor: pointer;
  background-color: #5852FE;
@@ -90,33 +94,32 @@
  font-weight: 400;
  color: #fff;
 }
-.google-icon{
+.google-icon-in{
     background-color: #fff;
     padding: 10px 25px;
     border-radius: 10px;
     border: 1px solid #c5c0c0;
 }
-.google-icon img{
+.google-icon-in img{
     height: 20px;
 }
 
-.sign-up-check p a{
-    text-decoration: none;
-    color: #0000ff;
-}
-.register-up{
+.register-in{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 10px;
+    padding-bottom: 1rem;
+    margin-top: 10px;
 }
-.register-up a{
+
+.register-in a{
     text-decoration: none;
     color: #0000ff;
 }
 
-.sign-up-foot{
+.sign-in-foot{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -130,6 +133,7 @@
 
 .back-arrow{
     border-right: 2px solid #fff;
+    width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -154,45 +158,52 @@
 
 @media screen and (max-width:900px) {
 
-    .sign-up-box{
-        gap: 6.8rem;
-    }
-   .sign-up-input{
+   .sign-in-box{
+    gap: 7.5rem;
+   }
+   .sign-in-input{
     width: 100%;
     padding:0 25px;
    }
-
-   .sign-up-foot h4{
-    font-size: 10px;
-    font-weight: 600;
+   .sign-in-check{
+    margin-top: 2rem;
+   }
+   .sign-in-check p{
+    width: 100%;
+   }
+   .sign-in-btn{
+    margin-top: 1rem;
+   }
+   
+   .register-in{
+    margin-top: 1rem;
+    padding-right: 3rem;
    }
 
-   .sign-up-check a{
-    font-size: 15px;
-   }
-   .sign-up-check p{
-    width: 80%;
-   }
-
-   .sign-up-btn{
-    padding-top: 1rem;
-   }
-   .register-up a{
+   .register-in a{
     font-size: 15px;
    }
 
    .privacy-policy{
     width: 100%;
     }
-    
-   .back-arrow h4{
-    padding-right: 10px;
+   .sign-in-foot h4{
+    font-size: 12px;
+    font-weight: 600
     }
-
+    .back-arrow{
+        width: 100%;
+        padding-left: 10px;
+    }
     .terms-condition{
-        padding-right: 15px;
+        width: 100%;
+    }
+    .sign-in-foot{
+        width: 100%;
     }
 
+   
+    
 
 
 }
