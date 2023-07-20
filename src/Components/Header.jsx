@@ -17,7 +17,7 @@ const Header = () =>{
                     <li><a href="#">Course</a></li>
                     <li><a href="#">Career</a></li>
                     <li><a href="#">About Us</a></li>
-                    <Link to={"/login"}><button className="sign-up">Sign Up</button></Link>
+                    <Link to={"/signup"}><button className="sign-up">Sign Up</button></Link>
                 </ul>
                 <div className="togin">
                 <button onClick={Handleclick} className="toggle"> ☰ </button>
@@ -28,7 +28,9 @@ const Header = () =>{
                 <a href="#">Career</a>
                 <a href="#">About Us</a>
                 <div className="mobile-btn">
-                    <button>Sign Up</button>
+                   <Link to={"/signup"} >
+                   <button>Sign Up</button>
+                   </Link>
                 </div>
             </div>
         </div>

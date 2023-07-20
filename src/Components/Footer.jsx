@@ -37,7 +37,7 @@ const Footer = () =>{
             </div>
             <div className="reserved">
                 <p>
-                © 2022 copyright by aDevMister. all right reserved.
+                © 2022 Copyright By aDevMister. All Right Reserved.
                 </p>
             </div>
         </div>

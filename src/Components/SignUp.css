@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sign-up-box{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.sign-up-img img{
+    position: relative;
+    top: 25px;
+    height: 20vh;
+}
+
+.sign-up-img h3{
+    font-weight: 800;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.sign-up-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.sign-up-input{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 400;
+    color: #000000a2;
+    gap: 10px;
+}
+
+.sign-up-input input{
+    width: 100%;
+    padding: 10px 25px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #7B7373;
+}
+.sign-up-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.sign-up-check p{
+    width: 50%;
+    font-size: 400;
+    color: #000000b0;
+    text-align: center;
+}
+.sign-up-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-right: 1rem;
+}
+.sign-up-btn p {
+    font-weight: 400;
+    color: #000000b7;
+    font-size: 15px;
+}
+
+.btn-sign-up button{
+ padding: 15px 45px;
+ cursor: pointer;
+ background-color: #5852FE;
+ border-radius: 10px;
+ border: none;
+ font-weight: 400;
+ color: #fff;
+}
+.google-icon{
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 3px solid #ddd;
+}
+.google-icon img{
+    height: 20px;
+}
+
+.register-up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 1rem;
+}
+
+.sign-up-check p a{
+    text-decoration: none;
+    color: #0000ff;
+}
+.register-up a{
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.sign-up-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 23px 0;
+    background-color: #5852FE;
+    color: #fff;
+
+}
+
+.back-arrow{
+    border-right: 2px solid #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.privacy-policy{
+    border-right: 2px solid #fff;
+    width: 50%;
+}
+
+.terms-condition{
+    width: 50%;
+}
+
+.back-arrow h4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media screen and (max-width:900px) {
+   .sign-up-input{
+    width: 100%;
+    padding:0 25px;
+   }
+
+   .sign-up-foot h4{
+    font-size: 10px;
+    font-weight: 600;
+   }
+
+   .sign-up-check{
+    padding:0 25px ;
+
+   }
+   .sign-up-check a{
+    font-size: 15px;
+   }
+   .sign-up-check p{
+    width: 100%;
+   }
+   .register-up a{
+    font-size: 15px;
+   }
+
+   .privacy-policy{
+    width: 100%;
+    }
+    
+   .back-arrow h4{
+    padding-right: 10px;
+    }
+
+    .terms-condition{
+        padding-right: 15px;
+    }
+
+
+
+}
